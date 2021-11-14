@@ -15,6 +15,7 @@ public class Client {
         System.out.println(msg);
 
         System.out.println("===============");
+         System.out.println("122222222222222222");
         //使用该电脑读取TF卡中的数据
         //定义适配器类
         String msg1 = computer.readSD(new SDAdapterTF());
