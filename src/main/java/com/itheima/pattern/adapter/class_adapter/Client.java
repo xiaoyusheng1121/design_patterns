@@ -12,10 +12,9 @@ public class Client {
         Computer computer = new Computer();
         //读取SD卡中的数据
         String msg = computer.readSD(new SDCardImpl());
-        System.out.println(msg);
 
-        System.out.println("===============");
-         System.out.println("122222222222222222");
+         System.out.println("122222222222222222");//v2yi
+         System.out.println("122222222222222222");//v2yi
         //使用该电脑读取TF卡中的数据
         //定义适配器类
         String msg1 = computer.readSD(new SDAdapterTF());
